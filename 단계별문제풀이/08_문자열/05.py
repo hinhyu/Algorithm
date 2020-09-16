@@ -1,31 +1,3 @@
-# # 모두 대문자로 
-# word = input().upper() 
-
-# # 알파벳 한개만 입력된경우. 
-# if len(word) == 1 : 
-#     print(word) 
-#     quit() 
-    
-# h_word = {} 
-
-# # 알파벳별 dict 
-
-# for i in set(word): #set은 집합함수임!!
-#     h_word[i] = 0 
-    
-# # 알파벳별 사용횟수 
-# for i in word: 
-#     h_word[i] += 1 
-
-# # value별로 dict 정렬 
-# h_word = sorted(h_word.items(),reverse=True,key=lambda item:item[1]) 
-
-# # 첫번째와 두번째가 같으면 ? 출력 
-# if h_word[0][1] == h_word[1][1]: 
-#     print("?") 
-# else: 
-#     print(h_word[0][0].upper())
-
 #인혜
 a = list(map(input().upper().count,map(chr,range(65,91)))) #a리스트 안에 문자가 숫자로 카운트?됨
 
