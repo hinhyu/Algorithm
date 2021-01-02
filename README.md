@@ -26,4 +26,4 @@ Python에서 입력값을 받을 때 input() 함수를 사용하지만 시간단
 sys.stdin.readline : 한 라인 입력 받을 때 <br>
 sys.stdin : 여러 줄 입력 받을 때 <br>
 for line in sys.stdin:<br>
-    print(line)
+　　print(line)
