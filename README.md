@@ -18,4 +18,12 @@ sum(iterable, start = 0)<br>
 두번째 인자 : 처음으로 또 더해줄 숫자<br>
 반환 : iterable의 합 + start 값<br>
 
-
+<h2>sys.stdin.readline</h2>
+Python에서 입력값을 받을 때 input() 함수를 사용하지만 시간단축을 위해 sys.stdin.readline을 사용한다.<br>
+입출력 속도 비교 : sys.stdin.readline > raw_input() > input()<br>
+변형 : num = int(input())   ->   num = int(sys.stdin.readline()) <Br>
+사용 시, import sys  선언 필요<br><br>
+sys.stdin.readline : 한 라인 입력 받을 때 <br>
+sys.stdin : 여러 줄 입력 받을 때 <br>
+for line in sys.stdin:<br>
+　　print(line)
