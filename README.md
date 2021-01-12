@@ -27,3 +27,8 @@ sys.stdin.readline : 한 라인 입력 받을 때 <br>
 sys.stdin : 여러 줄 입력 받을 때 <br>
 for line in sys.stdin:<br>
 　　print(line)
+  
+<h2>math.factorial()함수</h2>
+파이썬에서는 팩토리얼값을 구하는 표준 라이브러리로 math모듈에서 factorial()함수를 제공한다. <br>
+math.factorial(x)는 정수 x의 팩토리얼값을 반환<br>
+음수를 인수로 전달받으면 ValueError 예외 처리를 내보냄<br>
