@@ -1,4 +1,4 @@
-#경고
+#경고 -------------> 다시 해야햄
 a = list(map(int, input().split(':')))
 b = list(map(int, input().split(':')))
 c=[]
