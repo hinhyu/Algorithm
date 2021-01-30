@@ -23,3 +23,5 @@ for _ in range(t):
         print("TIE")
     else:
         print("Player 2")
+
+#sum을 두 번째 for문 안에 넣으면 오답이다. 왜냐하면 두번째 for문을 돌 때 elif에서 +1을 하더라도 그 다음번 순서에서 다시 sum=0으로 초기화 시킨 후에 if문으로 가기 때문이다.
