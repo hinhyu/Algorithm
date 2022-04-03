@@ -6,7 +6,7 @@ Studying Algorithm
 sum(iterable)<br>
 인자 : iterable한 자료형을 받으며 numeric 해야한다.<br>
 즉, 리스트나 튜플 처럼 인덱스 순환 접근이 가능한 자료형이고 내부에 숫자로만 이루어져 있어야한다. 여기서 숫자는 정수, 실수 둘다 가능<br>
-*iterable 객체 - 반복 가능한 객체, 대표적으로 iterable한 타입 - list, dict, set, str, bytes, tuple, range<br>
+* iterable 객체 - 반복 가능한 객체, 대표적으로 iterable한 타입 - list, dict, set, str, bytes, tuple, range<br>
 <br>
 반환형 : 인자로 들어온 iterable 내부 모든 요소의 합<br>
 <br>
@@ -25,9 +25,10 @@ Python에서 입력값을 받을 때 input() 함수를 사용하지만 시간단
 사용 시, import sys  선언 필요<br><br>
 sys.stdin.readline : 한 라인 입력 받을 때 <br>
 sys.stdin : 여러 줄 입력 받을 때 <br>
+```python
 for line in sys.stdin:<br>
 　　print(line)
-  
+```  
 ## math.factorial()함수
 파이썬에서는 팩토리얼값을 구하는 표준 라이브러리로 math모듈에서 factorial()함수를 제공한다. <br>
 math.factorial(x)는 정수 x의 팩토리얼값을 반환<br>
