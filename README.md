@@ -1,4 +1,4 @@
-# BaekJoon_Algorithm
+# Algorithm
 Studying Algorithm
 
 ## sum함수
