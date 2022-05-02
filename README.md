@@ -1,5 +1,4 @@
 # Algorithm
-Studying Algorithm using Python
 
 ## sum함수
 
